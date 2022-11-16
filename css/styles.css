@@ -251,20 +251,27 @@ align-items: center;
 }
 
 .caption {
-
+position: relative;
 }
 
 .caption-title {
+  display: flex;
 height: 70px;
 width: 100%;
 padding: 27px 0px;
 color: var(--main-color);
 background-color: rgba(47, 48, 58, 0.8);
 font-size: 14px;
-line-height: 16.41;
+line-height: 1.14;
+text-transform: uppercase;
 text-align: center;
-outline: 2px solid #2196f3;
+justify-content: center;
+
+position: absolute;
+
+bottom: 0;
 }
+
 
 
 .sort-section {
