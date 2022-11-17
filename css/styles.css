@@ -243,8 +243,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
 }
 .modal {
-    position: absolute;
-
+  position: absolute;
   min-height: 581px;
   min-width: 528px;
   background-color: var(--main-color);
@@ -259,6 +258,24 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--main-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  fill: var(--fourth-color);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover, .modal-close:focus {
+  fill: var(--third-color);
+}
 
 .benefits-icon {
   display: flex;
@@ -388,7 +405,9 @@ border-left: 1px solid var(--port-border-color);
   padding-left: 22px;
   padding-right: 22px;
   border: 0px;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
