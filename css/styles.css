@@ -387,7 +387,7 @@ bottom: 0;
 .overlay {
   display: flex;
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -405,13 +405,11 @@ bottom: 0;
 
   transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*   
-.overlay:hover {
+  
+.port-nav:hover .overlay {
   transform: translateY(0);
-}  */
-/* .port-nav li:hover .overlay {
-  transform: translateY (0);
-}
+}  
+
 
 
 .port-nav-sort {
@@ -455,7 +453,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.62;
   text-align: center;
   box-shadow: 0 4px rgba(0, 0, 0, 0.25);
-  /* float: left; */
+  float: left;
 }
 
 .section {
@@ -530,7 +528,7 @@ padding-bottom: 94px;
     margin-right: 30px;
     display: flex;
     /* flex-direction: column; */
-    /* width: 270px; */
+    width: 270px;
 }
 .team-list li:last-child {
     margin-right: 0px;
