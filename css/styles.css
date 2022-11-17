@@ -350,21 +350,26 @@ bottom: 0;
 
 
 
-.port-nav li {
+/* .port-nav li {
   /* margin-right: 30px; */
   width: 370px;
   /* margin-bottom: 30px; */
   display: flex;
   flex-direction: column;
-}
+/* } */ 
 
 .port-nav li {
   flex-basis: calc((100% - 60px) / 3);
 }
 
 .port-nav li {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
   margin-right: 30px;
   margin-bottom: 30px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .port-nav li:hover,
