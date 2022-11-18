@@ -527,8 +527,6 @@ padding-bottom: 94px;
 .team-list li {
     margin-right: 30px;
     display: flex;
-    /* flex-direction: column; */
-    width: 270px;
 }
 .team-list li:last-child {
     margin-right: 0px;
@@ -557,8 +555,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 }
 
 .social-link {
-  /* position: relative; */
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -573,7 +569,6 @@ background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .social-link-list {
   display: flex;
-  /* position: absolute; */
 }
 
 .social-link:hover,
