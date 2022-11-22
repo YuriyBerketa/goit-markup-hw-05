@@ -659,18 +659,9 @@ a {
   display: flex;
 }
 
-.align {
-  display: flex;
-}
-.footer-container {
-  /* width: 231px; */
-  /* display: flex; */
-}
-/* footer-container */
-/* .address {
-  /* display: flex; */
-/* } */
-*/ .add-list {
+
+
+.add-list {
   margin-top: 20px;
 }
 .add-list li {
@@ -724,13 +715,17 @@ a {
 }
 
 .footer-messenger {
+  display: flex;
   margin-left: 70px;
-  margin-top: -12px;
 }
 .footer-social {
-  display: block;
+  /* display: block; */
   text-align: center;
   align-items: center;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-client-list {
